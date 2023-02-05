@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/ptsans-400.woff2) format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/ptsans-700.woff2) format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  background-color: bisque;
+  color: black;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* Header style start*/
+.button-brown {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  width: 180px;
+  height: 36px;
+  background: #756157;
+  border-radius: 4px;
+  border: 0;
+}
+
+.page-header {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.navigation-list {
+  list-style-type: none;
+}
+
+.navigation-link {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
+}
+
+.navigation-user a {
+  width: 18px;
+  height: 18px;
+}
+
+/* Header style end*/
+/* Body style start*/
+.welcome {
+  background-image: url("../images/images_main/background_images/welcome_background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.advantages h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.advantages p {
+  text-align: center;
+  font-weight: 400;
+  line-height: 26px;
+  color: #333333;
+}
+
+.advantages-main {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.advantages-text p {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+}
