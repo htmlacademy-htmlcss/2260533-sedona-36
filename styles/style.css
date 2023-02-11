@@ -1,0 +1,359 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/ptsans-400.woff2) format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/ptsans-700.woff2) format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  background-color: bisque;
+  color: #333;
+}
+
+.advantages p {
+  text-align: center;
+}
+
+.service p {
+  text-align: center;
+}
+
+.search p {
+  text-align: center;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* Header style start*/
+.button-brown {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  width: 180px;
+  height: 36px;
+  background: #756157;
+  border-radius: 4px;
+  border: 0;
+}
+
+.page-header {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.navigation-list {
+  list-style-type: none;
+}
+
+.navigation-link {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
+}
+
+.navigation-user a {
+  width: 18px;
+  height: 18px;
+}
+
+/* Header style end*/
+/* Body style start*/
+.welcome {
+  background-image: url("../images/images_main/background_images/welcome_background.jpg");
+  background-color: #82B3D3;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.advantages h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+}
+
+.service h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+}
+
+.search h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+}
+
+.advantages-main {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.advantages-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.advantages-item {
+  color: black;
+}
+
+.advantages-list li:first-child {
+  color: white;
+}
+
+.advantages-list li:last-child {
+  color: white;
+}
+
+.service-main {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.service-item {
+  width: 400px;
+  height: 385px;
+  text-align: center;
+}
+
+.search-hotel {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  background: #756157;
+  border-radius: 4px;
+  border: 0;
+  padding: 8px 50px;
+  text-decoration: none;
+}
+
+.subscribe {
+  background-image: url(../images/images_main/background_images/subscribe_background.jpg);
+  background-color: #82B3D3;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 96px 258px 104px;
+  color: white;
+}
+
+.subscribe>h2 {
+  color: white;
+}
+
+.button-blue {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  width: 180px;
+  height: 36px;
+  background: #82b3d3;
+  border-radius: 4px;
+  border: 0;
+}
+
+.footer-contacts-address-phone {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+}
+
+.filter-background {
+  background-image: url(../images/images_catalog/catalog_hotels_background.jpg);
+  background-color: #82B3D3;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  color: white;
+}
+
+.hotel-filter-group {
+  border: none;
+}
+
+.breadcrumbs-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.hotel-filter-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+.hotel-filter-item {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.button-no-border {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  background: none;
+  border: none;
+  color: white;
+}
+
+.search-result {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.select-control>option {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.button {
+  width: 48px;
+  height: 48px;
+  border: 2px solid #e5e5e5;
+  background-color: white;
+}
+
+.button-light-all {
+  background-image: url(../images/images_catalog/icons/icon_all_cards.svg);
+  background-repeat: no-repeat;
+}
+
+.button-light-one {
+  background-image: url(../images/images_catalog/icons/icon_one_card.svg);
+  background-repeat: no-repeat;
+}
+
+.button-light-list {
+  background-image: url(../images/images_catalog/icons/icon_list.svg);
+  background-repeat: no-repeat;
+}
+
+.detail {
+  text-decoration: none;
+  width: 140px;
+  height: 36px;
+  color: white;
+}
+
+.name-hotel {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.hotel-card>span {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.button-hotel-rating {
+  background: #f2f2f2;
+  border-radius: 4px;
+  border: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+  width: 180px;
+  height: 36px;
+}
+
+.hotel-card {
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+}
+
+.pagination {
+  list-style-type: none;
+}
+
+.subscribe-catalog {
+  text-align: center;
+  padding: 96px 258px 104px;
+}
+
+.pagination-link {
+  width: 60px;
+  height: 60px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  background-color: #82b3d3;
+  border-radius: 4px;
+  border: none;
+  color: white;
+}
+
+.other {
+  color: #000000;
+  background-color: white;
+}
