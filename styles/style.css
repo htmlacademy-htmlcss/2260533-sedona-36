@@ -14,6 +14,7 @@
   font-display: swap;
 }
 
+/* Other start */
 html {
   height: 100%;
 }
@@ -31,10 +32,6 @@ body {
   color: #333;
 }
 
-.main-container {
-  flex-grow: 1;
-}
-
 .button-brown {
   font-weight: 700;
   font-size: 16px;
@@ -47,6 +44,10 @@ body {
   background: #756157;
   border-radius: 4px;
   border: 0;
+}
+
+.main-container {
+  flex-grow: 1;
 }
 
 .visually-hidden {
@@ -85,18 +86,14 @@ ul {
   background-color: white;
 }
 
-
-footer {
-  padding: 40px 70px 30px;
-}
-
-
-
 .page-container {
   width: 1200px;
   margin: 0 auto;
 }
 
+/* Other end */
+
+/* Header start */
 .navigation {
   display: flex;
   width: 1060px;
@@ -123,7 +120,6 @@ footer {
   padding: 0;
   margin: 0;
   height: 76px;
-
 }
 
 .navigation-user {
@@ -134,7 +130,6 @@ footer {
   margin: 0;
   margin-top: 14px;
   margin-left: auto;
-
 }
 
 .navigation-link {
@@ -153,37 +148,11 @@ footer {
   padding-bottom: 20px;
 }
 
+/* Header end */
+
+/* Main start */
 .advantages p {
   text-align: center;
-}
-
-.page-footer-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 1060px;
-  margin: 0 auto;
-}
-
-.footer-social {
-  width: 145px;
-  margin-right: 236px;
-}
-
-.footer-social-list {
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.footer-logo-academy {
-  margin-left: auto;
-  max-width: 115px;
-}
-
-.footer-contacts {
-  width: 345px;
 }
 
 .service p {
@@ -200,7 +169,6 @@ footer {
   padding: 51px 371px 82px;
 }
 
-
 .advantages h2 {
   font-weight: 700;
   font-size: 30px;
@@ -216,7 +184,6 @@ footer {
   padding: 70px 250px;
   margin-bottom: 21px;
 }
-
 
 .text-container-advantages p {
   font-size: 21px;
@@ -255,8 +222,6 @@ footer {
   text-align: center;
   text-transform: uppercase;
 }
-
-
 
 .advantages-text {
   font-weight: 400;
@@ -388,7 +353,6 @@ footer {
 .search p {
   width: 592px;
   margin-bottom: 54px;
-
 }
 
 .search-hotel {
@@ -433,25 +397,6 @@ footer {
   text-transform: uppercase;
 }
 
-.form-subscribe {
-  display: flex;
-  justify-content: space-between;
-}
-
-.field {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
-  padding: 0;
-  margin: 0;
-  width: 452px;
-  flex-grow: 1;
-  border-top-left-radius: 4px;
-  border-bottom-left-radius: 4px;
-  border: 0;
-  padding-left: 25px;
-}
-
 .subscribe-button {
   font-weight: 700;
   font-size: 20px;
@@ -469,15 +414,23 @@ footer {
   margin: 0;
 }
 
+.form-subscribe {
+  display: flex;
+  justify-content: space-between;
+}
 
-
-.footer-contacts-address-phone {
+.field {
   font-weight: 400;
-  font-size: 40px;
-  line-height: 40px;
-  text-align: center;
-  color: #000000;
-  text-decoration: none;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 0;
+  margin: 0;
+  width: 452px;
+  flex-grow: 1;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: 0;
+  padding-left: 25px;
 }
 
 .filter-background {
@@ -615,3 +568,50 @@ footer {
   border: none;
   color: white;
 }
+
+/* Main end */
+
+/* Footer start */
+footer {
+  padding: 40px 70px 30px;
+}
+
+.page-footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.footer-social {
+  width: 145px;
+  margin-right: 236px;
+}
+
+.footer-social-list {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo-academy {
+  margin-left: auto;
+  max-width: 115px;
+}
+
+.footer-contacts {
+  width: 345px;
+}
+
+.footer-contacts-address-phone {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Footer end */
