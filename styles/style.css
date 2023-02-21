@@ -439,6 +439,11 @@ ul {
   background-repeat: no-repeat;
   background-size: 100% auto;
   color: white;
+  margin: 0;
+  padding-top: 35px;
+  padding-left: 70px;
+  padding-bottom: 72px;
+  padding-right: 70px;
 }
 
 .hotel-filter-group {
@@ -615,3 +620,72 @@ footer {
 }
 
 /* Footer end */
+/* Catalog start */
+.inner-header-title {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.breadcrumbs {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.breadcrumbs li {
+  margin-right: 8px;
+}
+
+.hotel-filter {
+  display: flex;
+}
+
+.catalog-hotels {
+  margin: 0;
+  padding: 0;
+}
+
+.hotel-filter fieldset {
+  margin: 0;
+  padding: 0;
+  margin-right: 70px;
+}
+
+.hotel-filter-list {
+  padding: 0;
+  width: 150px;
+}
+
+.hotel-filter fieldset:nth-child(2) {
+  margin-right: 140px;
+}
+
+.hotel-filter-group .field {
+  width: 143px;
+}
+
+.hotel-filter-apply-reset {
+  margin-right: 70px;
+}
+
+.filter-search-result {
+  width: 1060px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.filter-search-result li h2 {
+  margin-right: 200px;
+}
+
+.filter-search-result li select {
+  width: 292px;
+  margin-right: 70px;
+}
+
+/* Catalog end */
