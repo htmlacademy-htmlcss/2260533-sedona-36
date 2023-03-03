@@ -146,7 +146,6 @@ ul {
 .navigation-user .navigation-link {
   min-width: 20px;
   min-height: 20px;
-  padding: 22px 12px;
 }
 
 .navigation-item {
@@ -165,8 +164,10 @@ ul {
 }
 
 .welcome {
-  background: url(../images/images_main/background_images/welcome_vector.svg) bottom center no-repeat,
-    url("../images/images_main/background_images/welcome_background.jpg") center no-repeat;
+  background: url(../images/images_main/background_images/welcome_vector.svg)
+      bottom center no-repeat,
+    url("../images/images_main/background_images/welcome_background.jpg") center
+      no-repeat;
   background-color: #82b3d3;
   display: flex;
   flex-direction: column;
@@ -499,7 +500,7 @@ ul {
   text-transform: uppercase;
 }
 
-.select-control>option {
+.select-control > option {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -540,7 +541,7 @@ ul {
   line-height: 28px;
 }
 
-.hotel-card>span {
+.hotel-card > span {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
